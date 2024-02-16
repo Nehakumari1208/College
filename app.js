@@ -92,6 +92,6 @@ select.addEventListener("change", (evt) => {
   }
   submit.addEventListener("click",(evt)=>{
     document.getElementById("msg").style.visibility="visible";
-    document.getElementById("msg").innerText=`Total Amount is ${vall}`;
+    document.getElementById("msg").innerText=`Total Amount is $${vall}`;
   }) 
   
