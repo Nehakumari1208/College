@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.details, .select, .button{
+    visibility: hidden;
+}
+
+button{
+    visibility: hidden;
+    background-color: rgb(216, 113, 10);
+    font-size: 2em;
+    color: #8affc1;
+    border-radius: 0.25em;
+    padding: 0.15em 0.3em;
+    margin: 3em 0em 0 1em ;
+    border: none;
+    
+}
+#msg{
+    display: inline;
+    background-color: #f97068;
+    border-radius: 0.3em;
+    padding: 0.4em 0.5em;
+    margin:10em 1em 0em 15em;
+    visibility: hidden;
+    font-weight: bolder;
+    font-size: 2em;
+}
+h1{
+    color: #151e3f ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-color:#f3dccf;;
+    color: black;
+}
+.dropdown{
+    text-align: center;
+    height: 12vh;
+    width:100vw;
+    background-color:#f97068;
+}
+select{
+    margin-top: 1em;
+    border: none;
+    border-radius: 0.5em;
+    height:2em;
+    text-align: center;
+    background-color:#8affc1;
+    border: 1px solid #f11c10 ;
+    font-weight: bolder;
+}
+.details{
+    font-size:1.2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+}
+b{
+    text-decoration: underline;
+}
+h3{
+    display: inline;
+}
+li{
+    text-align: justify;
+    margin:1em;
+}
+.select{
+    font-size: 1.4em;
+    margin-left: 2em;
+}
+h3{
+    text-decoration:underline;
+}
+.msg{
+    font-size: 1.4em;
+    margin-left: 2em;
+    font-style: italic;
+}

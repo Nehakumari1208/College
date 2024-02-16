@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <h1>Select a University</h1>
+            <select id="#op">
+                <option selected disabled>Select a University</option>
+                <option value="1" >Syracuse University, New York</option>
+                <option value="2" >SUNY, Buffalo</option>
+                <option value="3" >University of Illinois, Chicago</option>
+                <option value="4" >Texas A&M University, Kingsville</option>
+            </select>    
+        </div>
+        <div class="details" id="myP">
+            <p>
+                <ul>
+                    <li>
+                        <b>Adequate Policy Maximum</b>— Since this is essentially the limit that your insurance
+                        policy will pay towards your medical bills, colleges and universities often require their
+                        international students to purchase a plan with a policy maximum of at least $50,000.
+                    </li>
+                    <li>
+                        <b>Relatively Low Deductible</b> — To help keep students out of pocket costs as low as
+                        possible, schools often include a deductible limit per condition, or per policy period,
+                        as part of their waiver requirements.
+                    </li>
+                    <li>
+                        <b>Mental Health Coverage </b>— To help ensure students are both physically and mentally
+                        healthy, outside health insurance plans are generally required provide both in-patient
+                        and out-patient mental health care, either at a set dollar amount or a percentage per
+                        visit.
+                    </li>
+                    <li>
+                        <b>Maternity Coverage</b> — As a preventative measure, adequate maternity coverage is
+                        another popular health insurance waiver requirement for international students.
+                        Schools don't generally require maternity to be covered at a specific dollar amount,
+                        and instead request a high percentage to be covered, typically at least 80% coverage
+                        in-network for pre-natal, delivery and post-natal care.
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="select" id="programs">
+            <h3>Select The Programs</h3> (To see the Premium Plans)
+            <br>
+            <br>
+            <input type="checkbox" value="wellness" name="checkbox">
+            <label for="wellness">Wellness Program- </label>&nbsp;$<a id="first"></a>
+            <br>
+            <input type="checkbox" value="health"  name="checkbox">
+            <label for="health">Health Insurance- </label>&nbsp;$<a id="sec"></a>
+            <br>
+            <input type="checkbox" value="travel"  name="checkbox">
+            <label for="travel">Travel Insurance- </label>&nbsp;$<a id="third"></a>
+            <br>
+        </div>
+        <button>Submit</button>
+        <div id="msg">
+            Total Amount=
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
